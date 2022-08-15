@@ -1,0 +1,122 @@
+body {
+    background-color: hsl(215, 20%, 88%);
+    font-family: Karla, 'san-serif';
+    align-items: center;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: hsl(204, 43%, 93%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 40px;
+    position: relative;
+    left: 350px;
+    height: 200px;
+    width: 620px;
+    margin-top: 150px;
+    filter: brightness(110%);
+}
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    filter: brightness(85%);
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    padding: 30px;
+    border-bottom-left-radius: 8px;
+    width: 310px;
+    height: 250px;
+    position: absolute;
+    left: 350px;
+}
+
+#btn {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    height: 50px;
+    width: 235px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 40px;
+    filter: none;
+}
+
+.right {
+    background-color: hsl(179, 62%, 43%);
+    filter: contrast(90%);
+    color: hsl(204, 43%, 93%);
+    display: inline-block;
+    padding: 30px;
+    border-bottom-right-radius: 8px;
+    width: 310px;
+    height: 250px;
+    position: absolute;
+    left: 660px;
+}
+
+#p-top {
+    color: hsl(218, 22%, 67%);
+    font-size: 15px;
+}
+
+#sh-top {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 15px;
+    
+}
+
+#h-top {
+    color: hsl(179, 62%, 43%);
+    filter: brightness(80%);
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+#p-left  {
+    filter: none;
+    color: hsl(0, 0%, 100%);
+    margin-top:5px;
+    font-weight: 200;
+}
+
+#p-right {
+    filter: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 200;
+    font-size: 15px;
+    filter: brightness(90%);
+}
+
+#sh-left {
+    color: hsl(0, 0%, 100%);
+    filter: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#h-right {
+    color: hsl(0, 0%, 100%);
+    filter: none;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#per-left {
+    display: inline-block;
+    margin-left: 10px;
+    filter:brightness(90%);
+    font-weight: 200;
+}
